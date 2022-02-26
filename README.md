@@ -1,5 +1,5 @@
 # Normal-estimation Benchmark
-Testing: Cilantro / Open3D (Normal / Omp)
+Testing: Cilantro / PCL (Normal / Omp)
 
 # Findings
 
