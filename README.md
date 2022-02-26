@@ -1,4 +1,4 @@
-# Normalestimation Benchmark
+# Normal-estimation Benchmark
 Testing: Cilantro / Open3D (Normal / Omp)
 
 # Findings
