@@ -151,15 +151,6 @@ std::vector<double> experiment_pcl(const int & iterations, const std::string & p
     }
     bar.finish();
 
-    // pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
-    // viewer->setBackgroundColor (0, 0, 0);
-    // pcl::visualization::PointCloudColorHandlerRGBField<pcl::PointXYZRGB> rgb(point_cloud_ptr);
-    // viewer->addPointCloud<pcl::PointXYZRGB> (point_cloud_ptr, rgb, "sample cloud");
-    // viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "sample cloud");
-    // viewer->addCoordinateSystem (1.0);
-    // viewer->initCameraParameters ();
-    // viewer->spin();
-
     return time;
 }
 
@@ -200,15 +191,6 @@ std::vector<double> experiment_pcl_omp(const int & iterations, const std::string
         time.push_back(timer_.getElapsedTime());
     }
     bar.finish();
-
-    // pcl::visualization::PCLVisualizer::Ptr viewer (new pcl::visualization::PCLVisualizer ("3D Viewer"));
-    // viewer->setBackgroundColor (0, 0, 0);
-    // pcl::visualization::PointCloudColorHandlerRGBField<pcl::PointXYZRGB> rgb(point_cloud_ptr);
-    // viewer->addPointCloud<pcl::PointXYZRGB> (point_cloud_ptr, rgb, "sample cloud");
-    // viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "sample cloud");
-    // viewer->addCoordinateSystem (1.0);
-    // viewer->initCameraParameters ();
-    // viewer->spin();
 
     return time;
 }
