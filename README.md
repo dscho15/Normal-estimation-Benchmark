@@ -1,4 +1,4 @@
-# Pointcloud_benchmark
+# Normalestimation Benchmark
 Testing: Cilantro / Open3D (Normal / Omp)
 
 # Findings
