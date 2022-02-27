@@ -9,4 +9,4 @@ The results; the mean is determined for 1000 iterations of normal estimation wit
     <img src="data/results.png" alt="Kitten" title="A cute kitten" />
 </p>
 
-The two last methods show similar performance, i.e., there is no significant difference between pcl using omp methods and cilantro, when estimating normals (knn, k=7).
+The two last methods show similar performance, i.e., there is no significant difference between pcl using omp methods and cilantro, when estimating normals. The following configuration was used in all three experiments (knn, k=7).
