@@ -3,7 +3,7 @@ Testing: Cilantro / PCL (Normal / Omp)
 
 # Findings
 
-The findings are stated below; the mean is determined for 1000 iterations of normal estimation, with the same configuration, using different methods. There is a significant difference, between (1) and (2-3).
+The findings are stated below; the mean is determined for 1000 iterations of normal estimation, with the same configuration, using different methods. There is a significant difference, between (pcl) and (cilantro/pcl_omp).
 
 <p align="center">
     <img src="data/results.png" alt="Kitten" title="A cute kitten" />
